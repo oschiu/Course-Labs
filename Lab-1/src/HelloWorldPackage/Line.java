@@ -20,12 +20,16 @@ public class Line {
 		};
 		
 		public Line ( ) {
-			
+			p0 = CONST_POINT;
+			p1 = CONST_POINT;
 		}
 		/* the behaviors of an object is defined by its methods */
 		public void drawLine () {
 			System.out.println("Drawing a line from " + p0 + " to "+ p1); 
 			System.out.println("Constant point = " + CONST_POINT);
+			if (p0 != null && p1 != null)
+				System.out.println("Draw directly from the P0 (" + p0.x + "," + p0.y + ")" + 
+									" to P1 (" + p1.x + "," + p1.y + ")");
 		}
 		
 		/* Internal class to defined my own type of Point */
@@ -42,7 +46,8 @@ public class Line {
 			public String toString() {
 				return "(" + x + "," + y + ")";
 			}
-			
 		}
 }
+
+
 
