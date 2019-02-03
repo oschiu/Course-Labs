@@ -16,6 +16,25 @@ public class Exercise2 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+//		Car myCar;
+//		myCar = new SUV();
+//		if (myCar.startEngine()) {
+//			myCar.drive();
+//			System.out.println("Go to school!");		
+//		}
+//		else
+//			System.out.println("Stuck at home!");
+//		
+//		Car c2 = new SUV();
+//		Car c3 = new SUV();
+//	//	Car c4 = new SUV();
+//		
+//		c2.totalCars();
+//		c3.totalCars();
+////		c4.totalCars();
+		
+		
+		
 		Oval x = new Oval(75);
 		System.out.println("---------");
 		
@@ -32,13 +51,22 @@ public class Exercise2 {
 		c2.Draw();
 		System.out.println("---------");
 		
-		Point p1 = new Point(0,0);
+		Point p1 = new Point(10,10);
 		Point p2 = new Point(1,1);
 		Point p3 = new Point(2,0);
 		Point p4 = new Point(1,-1);
-//		Oval o2 = new Oval (p1, p2, p3, p4);
-		Oval o2 = new Oval ();
+		Oval o2 = new Oval (p1, p2, p3, p4);
+//		Oval o2 = new Oval ();
 		System.out.println("---------");
+		
+		double dX = 30; 
+		double dY = 40;
+		double distanceResult = p1.distance(dX, dY);
+		System.out.println("Distance1 from (" + dX + ", " + dY + ") = " + distanceResult);
+		
+		Point pX = new Point(30, 40);
+		distanceResult = p1.distance(pX);
+		System.out.println("Distance2 from " + pX + " = " + distanceResult );		
 		
 //		Line myLine = new Line(11,22,33,44);
 //		myLine.drawLine();
