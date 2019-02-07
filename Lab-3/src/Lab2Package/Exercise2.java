@@ -67,8 +67,5 @@ public class Exercise2 {
 		Point pX = new Point(30, 40);
 		distanceResult = p1.distance(pX);
 		System.out.println("Distance2 from " + pX + " = " + distanceResult );		
-		
-//		Line myLine = new Line(11,22,33,44);
-//		myLine.drawLine();
 	}
 }

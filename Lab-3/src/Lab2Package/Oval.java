@@ -8,6 +8,7 @@ package Lab2Package;
  *
  */
 public class Oval extends Circle {
+	private double radius;
 	private Point[] ovalPoints;
 	
 	public Oval() {
@@ -31,7 +32,6 @@ public class Oval extends Circle {
 	}
 		
 	public void Draw() {
-		super.Draw();
 		System.out.println("Drawing an Oval with a " + style + " pen!");
 	}
 
