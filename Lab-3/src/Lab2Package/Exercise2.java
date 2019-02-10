@@ -2,7 +2,11 @@
  * 
  */
 package Lab2Package;
+<<<<<<< HEAD
 // import HelloWorldPackage.Line;
+=======
+//import HelloWorldPackage.Line;
+>>>>>>> branch 'master' of https://github.com/oschiu/Course-Labs.git
 
 
 /**
