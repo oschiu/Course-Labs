@@ -1,13 +1,4 @@
-/**
- * 
- */
-package Lab2Package;
-<<<<<<< HEAD
-// import HelloWorldPackage.Line;
-=======
-//import HelloWorldPackage.Line;
->>>>>>> branch 'master' of https://github.com/oschiu/Course-Labs.git
-
+import Lab2Package.*;
 
 /**
  * @author ochiu
@@ -20,22 +11,21 @@ public class Exercise2 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		Car myCar;
-//		myCar = new SUV();
-//		if (myCar.startEngine()) {
-//			myCar.drive();
-//			System.out.println("Go to school!");		
-//		}
-//		else
-//			System.out.println("Stuck at home!");
-//		
-//		Car c2 = new SUV();
-//		Car c3 = new SUV();
-//	//	Car c4 = new SUV();
-//		
-//		c2.totalCars();
-//		c3.totalCars();
-////		c4.totalCars();
+		Car myCar;
+		myCar = new SUV();
+		if (myCar.startEngine()) {
+			myCar.drive();
+			System.out.println("Go to school!");		
+		}
+		else
+			System.out.println("Stuck at home!");
+		
+		Car car2 = new SUV();
+		Car car3 = new SUV();
+		
+		car2.totalCars();
+		car3.totalCars();
+
 		
 		
 		

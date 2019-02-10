@@ -24,7 +24,7 @@ abstract public class Car {
 	 * @return boolean - TRUE = successfully start the engine 
 	 * 					 FALSE = start engine failed
 	 */
-	 abstract boolean startEngine();
+	 abstract public boolean startEngine();
 	 
 	 final public void drive()
 	 {

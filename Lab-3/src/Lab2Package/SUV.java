@@ -6,7 +6,7 @@ public class SUV extends Car {
 		// TODO Auto-generated constructor stub
 	}
 	
-	boolean startEngine()
+	public boolean startEngine()
 	{
 		// Check engine oil status
 		// check transmission is in Park

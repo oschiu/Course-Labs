@@ -22,7 +22,7 @@ public class Circle {
 		System.out.println("Circle constructor is called. Set radius to "+radius);		
 	}
 	
-	protected Circle() {
+	public Circle() {
 		// TODO Auto-generated constructor stub
 		radius = 5.0;
 		centre = new Point(0, 0);
