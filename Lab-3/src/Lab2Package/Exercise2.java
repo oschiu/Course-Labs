@@ -2,7 +2,7 @@
  * 
  */
 package Lab2Package;
-//import HelloWorldPackage.Line;
+// import HelloWorldPackage.Line;
 
 
 /**
