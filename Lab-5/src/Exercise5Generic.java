@@ -31,7 +31,7 @@ public class Exercise5Generic {
 		
 		
 		printAll(myDrivers);	//ok
-		printAll(myShapeList);
+//		printAll(myShapeList);
 //		BusDriver goodDriver = Exercise5Generic.<Driver,BusDriver>search(bd1, myDrivers, myBusDrivers);
 //		BusDriver goodDriver = Exercise5Generic.search(d1, myDrivers, myBusDrivers);
 		
